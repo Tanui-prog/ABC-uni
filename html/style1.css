@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #F5F8FA;
+    color: #14171A;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    color: #1DA1F2;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  main {
+    margin: 1rem auto;
+    max-width: 600px;
+  }
+  
+  .tweet-form-container {
+    background-color: #fff;
+    border: 1px solid #E1E8ED;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  .tweet-form-container:hover {
+    border-color: #1DA1F2;
+  }
+  
+  .tweet-form-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  #tweet-input {
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    resize: none;
+    width: 100%;
+  }
+  
+  #tweet-input:focus {
+    outline: none;
+  }
+  
+  #char-counter {
+    color: #657786;
+    font-size: 0.8rem;
+  }
+  
+  #char-counter.warning {
+    color: #ffad1f;
+  }
+  
+  #char-counter.danger {
+    color: #e
+  

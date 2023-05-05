@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70px;
+    background: #11101D;
+    padding: 6px 14px;
+    transition: all 0.5s ease;
+}
+.sidebar:hover{
+    width: 250px;
+}
+
+.sidebar i{
+    color: red;
+    height: 40px;
+    min-width: 50px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 5px;
+}
+
+.sidebar .nav-list{
+    margin-top: 20px;
+    height: 100%;
+}
+
+.sidebar li{
+    position: relative;
+    margin: 8px 0;
+    list-style-type: none;
+}
+
+.sidebar input{
+    position: relative;
+    visibility: hidden;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    outline: none;
+    height: 25px;
+    width: 100%;
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    background: #1d1b31;
+}
+
+.search:hover{
+    visibility: visible;
+}
+
+.sidebar.open input{
+    padding: 0 20px 0 50px;
+    width: 100%;
+}
+
+.sidebar .bx-search{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-60%);
+    font-size: 30px;
+    background: #11101D;
+}
+
+.sidebar .open .bx-search:hover{
+    background: #1d1b31;
+    color: #fff;
+}
+
+.sidebar .bx-search:hover{
+    background: #fff;
+    color: #11101D;
+}
+
+.sidebar li a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.search{
+    margin-left: 65px;
+}
+
+.link_name{
+    margin-left: 10px;
+    margin-top: 10;
+}
+
+.sidebar li:hover{
+    font-size: 24px;
+}

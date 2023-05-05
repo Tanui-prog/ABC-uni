@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+      <h1>Twitter Clone</h1>
+    </header>
+    <main>
+      <div class="tweet-form-container">
+        <form id="tweet-form">
+          <textarea id="tweet-input" placeholder="What's happening?" maxlength="280" required></textarea>
+          <div class="tweet-form-footer">
+            <span id="char-counter">280</span>
+            <button type="submit" id="tweet-button" disabled>Tweet</button>
+          </div>
+        </form>
+      </div>
+      <div id="tweet-list"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Twitter Clone</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
